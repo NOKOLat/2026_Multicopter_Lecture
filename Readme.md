@@ -7,6 +7,7 @@
 ├── docs
 │   └── basic_info.md
 ├── images
+├── axes_rotation.png
 │   ├── circuit.drawio.png
 │   ├── fig1.drawio.png
 │   ├── fig2.drawio.png
@@ -16,7 +17,6 @@
 ├── img_generator
 │   ├── axis_rotation_visualizer.py
 │   └── rpy_visualizer.py
-├── axes_rotation.png
 └── Readme.md
 ```
 
@@ -36,6 +36,7 @@ docs
 
 ```
 images
+   ├── axes_rotation.png
    ├──circuit.drawio.png
    ├── fig1.drawio.png
    ├── fig2.drawio.png
