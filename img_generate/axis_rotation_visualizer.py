@@ -1,6 +1,10 @@
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')  # バックエンドを Agg に設定（ファイル保存のみ）
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
+import os
+from pathlib import Path
 
 # ===============================
 # 円弧＋矢印を描く関数
@@ -62,7 +66,14 @@ def draw_rotation_arc(ax, axis='x', radius=0.6, angle=np.pi/2, color=None, label
 # メイン描画関数
 # ===============================
 
-def plot_axes_with_rotations(save_path="../images/axes_rotation.png"):
+def plot_axes_with_rotations(save_path=None):
+    # save_path が指定されない場合、デフォルトで images ディレクトリに保存
+    if save_path is None:
+        script_dir = Path(__file__).parent
+        save_path = script_dir.parent / "images" / "axes_rotation.png"
+    
+    # ディレクトリが存在しなければ作成
+    Path(save_path).parent.mkdir(parents=True, exist_ok=True)
 
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')

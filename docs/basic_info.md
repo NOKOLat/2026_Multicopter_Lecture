@@ -83,7 +83,7 @@ E-MAX デジタルマイクロサーボ ES9051​
 
 ### 軸の導入(roll, pitch, yaw)
 
-![](../axes_rotation.png){ width=60% }
+![](../images/axes_rotation.png){ width=60% }
 
 ### プロポによる操作
 プロポ : 飛行機やマルチコプターを操作するためのリモコン
