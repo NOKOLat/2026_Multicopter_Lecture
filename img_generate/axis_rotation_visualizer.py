@@ -62,7 +62,7 @@ def draw_rotation_arc(ax, axis='x', radius=0.6, angle=np.pi/2, color=None, label
 # メイン描画関数
 # ===============================
 
-def plot_axes_with_rotations(save_path="axes_rotation.png"):
+def plot_axes_with_rotations(save_path="../images/axes_rotation.png"):
 
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')

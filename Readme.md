@@ -44,7 +44,7 @@ images
    └── mp.drawio.png
 ```
 
-これらは`basic_info.md`で埋め込まれる画像である。
+これらは`basic_info.md`で埋め込まれる画像である。形式は`.png`形式が良い。
 
 #### 3.img_generator
 `img_generator`ディレクトリには、画像を生成するための`.py`ファイルが存在する。
