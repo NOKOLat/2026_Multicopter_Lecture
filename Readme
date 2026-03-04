@@ -1,0 +1,17 @@
+このリポジトリは、2026マルコプ講座資料作成の際に、講師が参考にするドキュメントです。
+
+.
+├── docs
+│   └── basic_info.md
+├── images
+│   ├── circuit.drawio.png
+│   ├── fig1.drawio.png
+│   ├── fig2.drawio.png
+│   ├── fig3.drawio.png
+│   ├── fig4.drawio.png
+│   └── mp.drawio.png
+├── img_generator
+│   ├── axis_rotation_visualizer.py
+│   └── rpy_visualizer.py
+├── axes_rotation.png
+└── Readme
