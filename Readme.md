@@ -7,7 +7,7 @@
 ├── docs
 │   └── basic_info.md
 ├── images
-├── axes_rotation.png
+│   ├── axes_rotation.png
 │   ├── circuit.drawio.png
 │   ├── fig1.drawio.png
 │   ├── fig2.drawio.png
@@ -57,4 +57,3 @@ img_generator
 ```
 
 `img_generator`ディレクトリ配下では、`basic_info.md`で埋め込まれている画像を生成する。
-
