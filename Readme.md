@@ -48,12 +48,12 @@ images
 これらは`basic_info.md`で埋め込まれる画像である。形式は`.png`形式が良い。
 
 #### 3.img_generator
-`img_generator`ディレクトリには、画像を生成するための`.py`ファイルが存在する。`.py`ファイルで画像を生成する際は、保存先のディレクトリが`images`になるよう設定する。
+`img_generator`ディレクトリ配下では、`basic_info.md`で埋め込まれている画像を生成する。
 
 ```
 img_generator
     ├── axis_rotation_visualizer.py
     └── rpy_visualizer.py
-```
+````
 
-`img_generator`ディレクトリ配下では、`basic_info.md`で埋め込まれている画像を生成する。
+img_generator`ディレクトリには、画像を生成するための`.py`ファイルが存在する。`.py`ファイルで画像を生成する際は、保存先のディレクトリが`images`になるよう設定する。
