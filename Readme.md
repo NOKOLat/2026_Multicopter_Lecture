@@ -19,12 +19,12 @@
 │   └── rpy_visualizer.py
 └── Readme.md
 ```
+このリポジトリでは、`basic_info.md`にドキュメント本文を記述する。
 
 ### 各ディレクトリの役割
 #### 1. docs
 
 ここには、ドキュメント本文を記述する`.md`ファイルが存在する。
-このリポジトリでは、`basic_info.md`にドキュメント本文を記述する。
 
 ```
 docs
@@ -32,7 +32,7 @@ docs
 ```
 
 #### 2. images
-`images`ディレクトリには`.md`本文に埋め込むための画像を保存する。
+`images`ディレクトリには`.md`本文に埋め込むための画像が保存されている。
 
 ```
 images
@@ -45,10 +45,12 @@ images
    └── mp.drawio.png
 ```
 
-これらは`basic_info.md`で埋め込まれる画像である。形式は`.png`形式が良い。
+これらは`basic_info.md`で埋め込まれる画像である。
+
+画像ファイル形式は`.png`形式が良い。
 
 #### 3.img_generator
-`img_generator`ディレクトリには、画像を生成するための`.py`ファイルが存在する。`.py`ファイルで画像を生成する際は、保存先のディレクトリが`images`になるよう設定する。
+`img_generator`ディレクトリ配下では、`basic_info.md`に埋め込まれている画像を生成する。
 
 ```
 img_generator
@@ -56,4 +58,6 @@ img_generator
     └── rpy_visualizer.py
 ```
 
-`img_generator`ディレクトリ配下では、`basic_info.md`で埋め込まれている画像を生成する。
+`img_generator`ディレクトリには、画像を生成するための`.py`ファイルが存在する。
+
+生成した画像の保存先は、`images`ディレクトリになるように設定する。
