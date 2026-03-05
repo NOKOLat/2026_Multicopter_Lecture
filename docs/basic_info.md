@@ -126,6 +126,7 @@ E-MAX デジタルマイクロサーボ ES9051​
 移動したい方向のモーターの回転数(rpm)を下げることで移動を行う。
 
 ![](../images/fig3.drawio.png){ width=30% }
+![](../images/fig6.drawio.png){ width=30% }
 
 ### yaw 回転
 
